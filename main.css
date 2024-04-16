@@ -5,6 +5,10 @@
   scrollbar-width: 0;
 }
 
+header {
+  z-index: 20;
+}
+
 h2 {
   color: #fc0;
   grid-column: 1 / 3;
@@ -41,14 +45,15 @@ header {
 }
 
 body {
-  height: auto;
   width: 100%;
+  height: 300vh;
 }
 
 .fondJungle {
   position: absolute;
   height: 300vh;
   width: 100%;
+  z-index: 0;
 }
 
 .jungle {
@@ -57,9 +62,26 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  z-index: 0;
 }
 
 .jungle img {
   width: 100%;
   height: 100vh;
+}
+
+.lineContainer {
+  position: fixed;
+  z-index: 10;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+svg {
+  display: inline-block;
+  height: 100%;
 }
