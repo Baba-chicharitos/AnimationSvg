@@ -33,6 +33,11 @@ li {
   color: #fbebce;
 }
 
+a {
+  text-decoration: none;
+  color: #fbebce;
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(10, 10fr);
