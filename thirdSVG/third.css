@@ -46,5 +46,35 @@ header {
   justify-items: center;
   background-color: #0d2847;
   height: 10vh;
-  border-bottom: 2px solid wheat;
+  border-bottom: 2px solid #fc0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.fondSpace {
+  height: 100%;
+  width: 100%;
+}
+
+.space {
+  height: 90vh;
+  width: 100%;
+}
+
+.space img {
+  height: 100%;
+  width: 100%;
+}
+
+.space1 {
+  height: 100vh;
+  width: 100%;
+}
+
+.space1 img {
+  height: 100%;
+  width: 100%;
 }
