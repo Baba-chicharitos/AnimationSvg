@@ -145,16 +145,14 @@ h4 {
 .lineContainer {
   position: absolute;
   z-index: 10;
-  top: 10vh;
-  left: 0;
+  top: 0;
+  left: -10%;
   width: 100%;
-  height: 500%;
-  text-align: center;
-  overflow: hidden;
+  height: 488%;
+  pointer-events: none;
 }
 
 svg {
   display: inline-block;
   height: 100%;
-  width: 100%;
 }
